@@ -51,9 +51,8 @@
   
   .section-1 .section-1-title {
     display: block;
-    margin: 12px 0 0;
     width: 100%;
-    font-family: "Lato";
+    font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
@@ -76,6 +75,13 @@
     width: 250px;
     margin: 20px auto 0;
     display: block;
+  }
+  p.section-1-para{
+    margin: 12px 0 0;
+    width:80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
   }
   span.data-circle{
       background-color: #26992a;
