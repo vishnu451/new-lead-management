@@ -77,12 +77,11 @@
     display: block;
   }
   p.section-1-para{
-    margin: 12px 0 0;
     width:80%;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     opacity: 0.5;
-    
+    text-align: center;
   }
   span.data-circle{
       background-color: #26992a;
@@ -586,7 +585,11 @@
     margin-top:0px;
   } 
   }
-  
+  @media only screen and (max-width:700px){
+    p.section-1-para{
+      margin: 0 auto;
+    }
+  }
   @media only screen and (min-width: 320px) {
     .section-1-content {
       width: 80%;
@@ -599,6 +602,7 @@
   @media only screen and (min-width: 320px) and (min-width: 375px) {
     .section-1 .section-1-title {
       font-size: 27px;
+      margin: 15px 0px;
     }
    
     .section-1 img {
@@ -607,6 +611,7 @@
     .slideshow {
       height: 395px;
     }
+
   }
   
   @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) {
@@ -626,7 +631,6 @@
       display: flex;
     }
     .section-1 .section-1-title {
-      margin: 25px 0 0;
       text-align: left;
       width: 300px;
     }
@@ -644,8 +648,7 @@
     .section-1 .hero-content p {
       text-align: left;
     }
-  
-  .rectangle-box {
+   .rectangle-box {
       width: 85%;
       max-width: 400px;
       height: 437px;
@@ -1052,7 +1055,7 @@
     }
     .section-1 .hero-content .section-1-title {
       font-size: 30px;
-      width: 500px;
+      width:700px;
     }
     
     .section-1 .hero-content .section-1-content {
@@ -1073,7 +1076,7 @@
       background: white;
     }
     .section-1 .hero-content .section-1-title {
-      width: 610px;
+      width: 675px;
     }
    
     .section-1 .hero-content .section-1-content {
